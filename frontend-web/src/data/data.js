@@ -1,0 +1,132 @@
+import ello from "@/assets/ello.jpeg";
+import akprisma from "@/assets/akprisma.jpg";
+import awan_cloud from "@/assets/awan_cloud.jpg";
+import deza from "@/assets/deza.jpg";
+import enjel from "@/assets/enjel.jpeg";
+import parel from "@/assets/parel.jpg";
+import atala from "@/assets/atala.jpg";
+import { Code2, Palette, Smartphone, Zap } from "lucide-react";
+const features = [
+  {
+    icon: Code2,
+    title: "Modern Technologies",
+    description:
+      "Learn React, Vue, TypeScript, and other cutting-edge frontend frameworks.",
+    color: "google-blue",
+  },
+  {
+    icon: Palette,
+    title: "UI/UX Design",
+    description:
+      "Create beautiful and intuitive user interfaces with design principles.",
+    color: "google-red",
+  },
+  {
+    icon: Smartphone,
+    title: "Responsive Design",
+    description:
+      "Build applications that work seamlessly across all devices and screen sizes.",
+    color: "google-yellow",
+  },
+  {
+    icon: Zap,
+    title: "Performance",
+    description: "Optimize web applications for speed and user experience.",
+    color: "google-green",
+  },
+];
+
+const coreTeam = {
+  name: "M. Rabyndra Janitra Binello",
+  university: "Universitas Sriwijaya",
+  major: "Teknik Informatika",
+  batch: "23",
+  instagram: "instagram.com/ellorabyndra/",
+  linkedin: "linkedin.com/in/ello-rabyndra",
+  github: "github.com/ElloRabyndra",
+  image: ello,
+  isLead: true,
+};
+
+const members = [
+  {
+    name: "Ahmad Kurnia Prisma",
+    major: "Teknik Informatika",
+    batch: "24",
+    instagram: "instagram.com/akprisma",
+    linkedin: "https://www.linkedin.com/in/ahmad-kurnia-prisma-1b639a313/",
+    github: "github.com/ak7prisma",
+    image: akprisma,
+  },
+  
+  {
+    name: "Nuredy Rahma Gunawan",
+    major: "Sistem Informasi",
+    batch: "24",
+    instagram: "https://www.instagram.com/nuredyrama__",
+    linkedin: "https://www.linkedin.com/in/nuredy-rahma-gunawan-46bb29302/",
+    github: "https://github.com/awann-cloud",
+    image: awan_cloud,
+  },
+  {
+    name: "Akbar Kurniawan",
+    major: "Fisika",
+    batch: "23",
+    instagram: "instagram.com/akbar_krnwn27",
+    linkedin: "linkedin.com/in/akbarkurnia1/",
+    github: "github.com/akbar-kurnia1",
+  },
+  {
+    name: "Duhairillah",
+    major: "Teknik Informatika",
+    batch: "25",
+    instagram: "instagram.com/_rillah",
+    linkedin: "https://www.linkedin.com/in/duhairillah-690679281/",
+    github: "github.com/SerenaaaaRN",
+  },
+  {
+    name: "Deza Arlian",
+    major: "Teknik Informatika",
+    batch: "24",
+    instagram: "instagram.com/dezaarl__/",
+    linkedin: "linkedin.com/in/dezaarlian/",
+    github: "github.com/dezaarlian",
+    image: deza,
+  },
+  {
+    name: "Aulia Mutiara Sari",
+    major: "Kesehatan Masyarakat",
+    batch: "25",
+    instagram: "instagram.com/auliaamtiara",
+    linkedin: "https://www.linkedin.com/in/aulia-mutiara-sari-513a7439a/",
+    github: "https://github.com/auliamutiaraa",
+  },
+  {
+    name: "Anjelia Hidayat",
+    major: "Sistem Komputer",
+    batch: "24",
+    instagram: "instagram.com/enjelyaaa_/",
+    linkedin: "linkedin.com/in/anjelia-hidayat/",
+    github: "https://github.com/enjeliaa",
+    image: enjel,
+  },
+  {
+    name: "Farrel Athaillah Wijaya",
+    major: "Teknik Informatika",
+    batch: "23",
+    instagram: "instagram.com/kokoparel/",
+    linkedin: "linkedin.com/in/farrelaw/",
+    github: "http://github.com/kokoparel",
+    image: parel,
+  },
+  {
+    name: "M Atala Daffa Alfaris",
+    major: "Teknik Informatika",
+    batch: "25",
+    instagram: "instagram.com/atalaa_df/",
+    linkedin: "https://www.linkedin.com/in/mataladaffaalfaris/",
+    github: "https://github.com/AtalaaDf",
+    image: atala,
+  },
+];
+export { features, coreTeam, members };
