@@ -7,6 +7,7 @@ import parel from "@/assets/parel.jpg";
 import atala from "@/assets/atala.jpg";
 import aulia from "@/assets/aulia.jpg";
 import rillah from "@/assets/rillah.jpg";
+import akbar from "@/assets/akbar.jpg";
 import {
   Code2,
   Palette,
@@ -16,6 +17,7 @@ import {
   Instagram,
   Linkedin,
 } from "lucide-react";
+
 const features = [
   {
     icon: Code2,
@@ -94,6 +96,7 @@ const members = [
     instagram: "instagram.com/akbar_krnwn27",
     linkedin: "linkedin.com/in/akbarkurnia1/",
     github: "github.com/akbar-kurnia1",
+    image: akbar,
   },
   {
     name: "Duhairillah",
