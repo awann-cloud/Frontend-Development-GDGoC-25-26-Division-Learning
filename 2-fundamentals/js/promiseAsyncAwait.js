@@ -1,5 +1,5 @@
 const janji = new Promise((resolve, reject) => {
-  const sukses = false;
+  const sukses = true;
 
   if (sukses) {
     resolve("Berhasil!");
