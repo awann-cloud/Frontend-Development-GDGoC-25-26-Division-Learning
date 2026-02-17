@@ -6,6 +6,7 @@ import gdgocLogo from "@/assets/gdgoc-logo.png";
 const navItems = [
   { label: "Home", href: "#" },
   { label: "About", href: "#about" },
+  { label: "Learning", href: "#learning" },
   { label: "Team", href: "#team" },
 ];
 
