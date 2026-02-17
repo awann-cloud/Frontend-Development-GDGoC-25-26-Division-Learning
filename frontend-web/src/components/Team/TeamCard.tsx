@@ -70,7 +70,7 @@ const TeamCard = ({ member, index }: TeamCardProps) => {
       </div>
 
       {/* Info */}
-      <div className="p-5">
+      <div className="p-5 pb-3">
         <h3 className="font-display text-lg font-semibold mb-1 line-clamp-1">
           {member.name}
         </h3>

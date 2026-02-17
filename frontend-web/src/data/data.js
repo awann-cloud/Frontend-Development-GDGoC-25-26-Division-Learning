@@ -9,6 +9,9 @@ import aulia from "@/assets/aulia.jpg";
 import rillah from "@/assets/rillah.jpg";
 import akbar from "@/assets/akbar.jpg";
 import faiz from "@/assets/faiz.jpg";
+import github from "@/assets/github.png";
+import tailwind from "@/assets/tailwind.png";
+import react from "@/assets/react.png";
 import {
   Code2,
   Palette,
@@ -71,7 +74,7 @@ const members = [
     linkedin: "https://www.linkedin.com/in/ahmad-kurnia-prisma-1b639a313/",
     github: "https://github.com/ak7prisma",
     image: akprisma,
-    quote:"It’s not a bug, it’s a feature.",
+    quote: "It’s not a bug, it’s a feature.",
   },
 
   {
@@ -82,7 +85,7 @@ const members = [
     linkedin: "https://www.linkedin.com/in/nuredy-rahma-gunawan-46bb29302/",
     github: "https://github.com/awann-cloud",
     image: awan_cloud,
-    quote: "tidak hanya 1 + 1 untuk menghasilkan 2"
+    quote: "tidak hanya 1 + 1 untuk menghasilkan 2",
   },
   {
     name: "Achmad Faiz Yudha Ramadhan",
@@ -112,7 +115,8 @@ const members = [
     linkedin: "https://www.linkedin.com/in/duhairillah-690679281/",
     github: "github.com/SerenaaaaRN",
     image: rillah,
-    quote: "No one heard about the tree growing. But when it fell, everyone started talking about it.",
+    quote:
+      "No one heard about the tree growing. But when it fell, everyone started talking about it.",
   },
   {
     name: "Deza Arlian",
@@ -162,7 +166,7 @@ const members = [
     linkedin: "https://www.linkedin.com/in/mataladaffaalfaris/",
     github: "https://github.com/AtalaaDf",
     image: atala,
-    quote: "after all this time? always", 
+    quote: "after all this time? always",
   },
 ];
 
@@ -187,4 +191,43 @@ const socialLinks = [
   },
 ];
 
-export { features, coreTeam, members, socialLinks };
+const learnings = [
+  {
+    icon: Code2,
+    title: "Git & Github Fundamentals",
+    description:
+      "The Git & GitHub learning materials cover basic commands, branching, collaborative workflows, and Conventional Commit Messages.",
+    color: "google-blue",
+    files:
+      "https://drive.google.com/file/d/1dTOAEeTLWx87g3ph61OAKIp2PxZ9Dx7r/view?usp=sharing",
+    image: github,
+    github:
+      "https://github.com/DSC-UNSRI/Frontend-Development-GDGoC-25-26-Division-Learning/tree/main/1-version-control-system",
+  },
+  {
+    icon: Palette,
+    title: "Tailwind CSS & Javascript ES6",
+    description:
+      "learning materials cover Tailwind CSS and Javascript ES6 features like let/const and Promise, with portfolio refactor challenges..",
+    color: "google-red",
+    files:
+      "https://drive.google.com/file/d/1URd0PRfXQjRAM7plmel_T8oWd194Lt1w/view?usp=sharing",
+    image: tailwind,
+    github:
+      "https://github.com/DSC-UNSRI/Frontend-Development-GDGoC-25-26-Division-Learning/tree/main/2-fundamentals",
+  },
+  {
+    icon: Smartphone,
+    title: "Introduction to React",
+    description:
+      "The introductory React JS material covers the concepts of SPAs, JSX, and project structure, with component implementation challenges.",
+    color: "google-yellow",
+    files:
+      "https://drive.google.com/file/d/1lgGtqTQH_dJokXzoVO_JMimwGPVfvsis/view?usp=sharing",
+    image: react,
+    github:
+      "https://github.com/DSC-UNSRI/Frontend-Development-GDGoC-25-26-Division-Learning/tree/main/3-react-intro",
+  },
+];
+
+export { features, coreTeam, members, socialLinks, learnings };
