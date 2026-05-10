@@ -1,5 +1,5 @@
 1. Prisma : https://github.com/ak7prisma/game-collection
-2. Deza
+2. Deza   :
 3. Atala  : https://github.com/AtalaaDf/Learning-5-MyTabungan
 4. Rillah : https://github.com/SerenaaaaRN/task-gdg-interactive-app.git
 5. Faiz : https://github.com/FaizZzhue/warungQ.git
